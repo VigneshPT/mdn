@@ -12,10 +12,6 @@ public class MDN {
 		this.subscriberNumber = subscriberNumber;
 	}
 	
-	public String getMDN() {
-		return this.nPa + "-" + this.nXx + "-" + this.subscriberNumber;
-	}
-	
 	public void setPrintStrategy(IPrint printStrategy) {
 		this.printStrategy = printStrategy;
 	}
