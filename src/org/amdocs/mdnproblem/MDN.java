@@ -12,10 +12,6 @@ public class MDN {
 		this.subscriberNumber = subscriberNumber;
 	}
 	
-	public MDN(String mdnString) {
-		mdnString.split("-");
-	}
-	
 	public String getMDN() {
 		return this.nPa + "-" + this.nXx + "-" + this.subscriberNumber;
 	}

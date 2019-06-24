@@ -13,7 +13,7 @@ public class MDNSplitterApplication {
 		String inputFromConsole = inputReader.next();
 		
 		PackedMDN packedMDN = new PackedMDN(inputFromConsole);
-		
+//		
 //		ArrayList<MDN> mdns =  packedMDN.getAllMobileDirectoryNumbers();
 //		
 //		for(MDN mdn : mdns) {
@@ -23,6 +23,7 @@ public class MDNSplitterApplication {
 		packedMDN.printAllMobileDirectoryNumbers();
 		
 		inputReader.next();
+		inputReader.close();
 		
 		packedMDN.printAllMobileDirectoryNumbers(new ParanthesisPrintStrategy());
 		
